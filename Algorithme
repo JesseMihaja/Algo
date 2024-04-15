@@ -1,1 +1,20 @@
 
+Fonction afficherFormesCanoniques(logique):
+    variables:
+        formesCanoniques = []
+        formeCanonique1
+        formeCanonique2
+    
+    // Calcul et stockage des formes canoniques
+    formeCanonique1 = calculerFormeCanonique1(logique)
+    formeCanonique2 = calculerFormeCanonique2(logique)
+    
+    formesCanoniques.append(formeCanonique1)
+    formesCanoniques.append(formeCanonique2)
+    
+    // Afficher les formes canoniques
+    pour chaque formeCanonique dans formesCanoniques:
+        afficher formeCanonique
+
+    Fin Fonction
+
